@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/actionFeeds"
+        android:title="@string/actionFeeds"
+        app:showAsAction="always" >
+        <menu>
+            <item
+                android:id="@+id/actionSubFeedTopStories"
+                android:title="@string/abcTopStories"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/actionSubFeedWorldNews"
+                android:title="@string/abcWorldNews"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/actionSubFeedPolitics"
+                android:title="@string/abcPolitics"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/actionRefresh"
+        android:enabled="true"
+        android:icon="@drawable/ic_autorenew_black_48dp"
+        android:title="@string/actionRefresh"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_setting"
+        android:title="@string/menu_action_setting"
+        android:icon="@drawable/ic_settings_black_48dp"
+        app:showAsAction="always" />
+</menu>

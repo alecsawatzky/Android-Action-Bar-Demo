@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ActionBarDemo</string>
+    <string name="actionFeeds">Feeds</string>
+    <string name="abcTopStories">Top Stories</string>
+    <string name="abcWorldNews">World News</string>
+    <string name="abcPolitics">Politics</string>
+    <string name="actionRefresh">Refresh</string>
+    <string name="menu_action_setting">Settings</string>
+</resources>
